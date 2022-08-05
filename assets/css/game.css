@@ -1,0 +1,35 @@
+html, body{
+    overflow: hidden;
+    background: black!important;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+#game{
+    position: relative;
+}
+
+canvas{
+    /*position: absolute;*/
+    text-align: center;
+    margin: 0 auto;
+    background: whitesmoke;
+    width: 50%;
+    height: 100vh;
+    display: block;
+}
+
+#fps{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 50%;
+
+}
+
+#back{
+    position: absolute;
+    bottom: 2%;
+    right: 2%;
+    cursor: pointer;
+}
